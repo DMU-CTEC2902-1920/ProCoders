@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week24Lab_Views(Controller2View)", "Week24Lab_Views(Controller2View)\Week24Lab_Views(Controller2View).csproj", "{8417D5B1-7039-41C6-B6BD-2E3275934CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week24Lab_Views(Controller2View).Tests", "Week24Lab_Views(Controller2View).Tests\Week24Lab_Views(Controller2View).Tests.csproj", "{A3E8FEF4-C8E3-4BE4-91DF-6A97EEEB3DEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8417D5B1-7039-41C6-B6BD-2E3275934CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8417D5B1-7039-41C6-B6BD-2E3275934CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8417D5B1-7039-41C6-B6BD-2E3275934CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8417D5B1-7039-41C6-B6BD-2E3275934CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E8FEF4-C8E3-4BE4-91DF-6A97EEEB3DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E8FEF4-C8E3-4BE4-91DF-6A97EEEB3DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E8FEF4-C8E3-4BE4-91DF-6A97EEEB3DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E8FEF4-C8E3-4BE4-91DF-6A97EEEB3DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B984CC8-A79B-4F49-A0C2-588EABBEEB70}
+	EndGlobalSection
+EndGlobal

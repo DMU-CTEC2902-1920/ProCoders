@@ -20,7 +20,7 @@ namespace StoryWebsiteMVCProject.Tests.Controllers
             ViewResult result = controller.Index();
 
             //Assert
-            Assert.AreEqual("Welcome to the Shop. Kindly spend all your money!", controller.ViewBag.WelcomeMessage);
+            Assert.AreEqual("Welcome to the Shop. Kindly spend all your money!", result.ViewBag.WelcomeMessage);
 
         }
 
