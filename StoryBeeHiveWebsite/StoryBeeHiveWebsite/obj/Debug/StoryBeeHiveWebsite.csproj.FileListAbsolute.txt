@@ -98,10 +98,11 @@ D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveW
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\bin\Microsoft.Owin.Security.OAuth.xml
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csprojAssemblyReference.cache
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.CoreCompileInputs.cache
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.CopyComplete
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.dll
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.pdb
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.InitialCreate.resources
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.GenerateResource.cache
+D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.AddCategoryName.resources
+D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.Name.resources
