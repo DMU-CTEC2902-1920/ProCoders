@@ -28,6 +28,8 @@ namespace StoryBeeHiveWebsite.Migrations
                 new Author{AuthorId=3, FirstName="Qin", LastName="Juang"}
             };
 
+         
+
             authors.ForEach(author => context.Authors.AddOrUpdate(p => p.AuthorId, author));
             context.SaveChanges();
 
@@ -39,6 +41,16 @@ namespace StoryBeeHiveWebsite.Migrations
             };
 
             categories.ForEach(category => context.Categories.AddOrUpdate(p => p.CategoryId, category));
+            context.SaveChanges();
+
+            var comments = new List<Comment>
+            {
+                new Comment{CommentId=1, Description="Very good story well done", StoryId=5},
+                new Comment{CommentId=2, Description="I would have preferred a much simpler story", StoryId=5},
+                new Comment{CommentId=3, Description="Life is relaxing while reading this story", StoryId=5}
+            };
+
+            comments.ForEach(comment => context.Comments.AddOrUpdate(p => p.CommentId, comment));
             context.SaveChanges();
         }
     }

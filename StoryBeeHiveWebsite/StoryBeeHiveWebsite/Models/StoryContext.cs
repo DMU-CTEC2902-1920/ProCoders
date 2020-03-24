@@ -24,5 +24,6 @@ namespace StoryBeeHiveWebsite.Models
         public System.Data.Entity.DbSet<StoryBeeHiveWebsite.Models.Author> Authors { get; set; }
 
         public System.Data.Entity.DbSet<StoryBeeHiveWebsite.Models.Category> Categories { get; set; }
+        public System.Data.Entity.DbSet<StoryBeeHiveWebsite.Models.Comment> Comments { get; set; }
     }
 }

@@ -3,10 +3,10 @@
 @{
     ViewBag.Title = "Index";
 }
+<br />
+<br />
 
-<h2>Stories List</h2>
-
-<p>
+<p style="font-size:larger">
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
@@ -29,29 +29,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Author.FirstName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Author.LastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.StoryId }) |
-            @Html.ActionLink("Details", "Details", new { id = item.StoryId }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.StoryId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.StoryId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.StoryId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.StoryId })
+            </td>
+        </tr>
+    }
 
 </table>

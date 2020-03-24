@@ -14,5 +14,6 @@ namespace StoryBeeHiveWebsite.Models
         public virtual string Description { get; set; }
         public virtual Category Category { get; set; }
         public virtual Author Author { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }
