@@ -7,13 +7,13 @@ namespace StoryBeeHiveWebsite.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class _1 : IMigrationMetadata
+    public sealed partial class NewMigrationForMaster : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(_1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(NewMigrationForMaster));
         
         string IMigrationMetadata.Id
         {
-            get { return "202003232053320_1"; }
+            get { return "202003242307151_NewMigrationForMaster"; }
         }
         
         string IMigrationMetadata.Source

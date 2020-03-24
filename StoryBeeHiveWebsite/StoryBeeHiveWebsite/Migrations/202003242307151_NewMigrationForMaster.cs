@@ -3,7 +3,7 @@ namespace StoryBeeHiveWebsite.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class NewMigrationForMaster : DbMigration
     {
         public override void Up()
         {
@@ -27,6 +27,18 @@ namespace StoryBeeHiveWebsite.Migrations
                 .PrimaryKey(t => t.CategoryId);
             
             CreateTable(
+                "dbo.Comments",
+                c => new
+                    {
+                        CommentId = c.Int(nullable: false, identity: true),
+                        Description = c.String(),
+                        StoryId = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.CommentId)
+                .ForeignKey("dbo.Stories", t => t.StoryId, cascadeDelete: true)
+                .Index(t => t.StoryId);
+            
+            CreateTable(
                 "dbo.Stories",
                 c => new
                     {
@@ -46,11 +58,14 @@ namespace StoryBeeHiveWebsite.Migrations
         
         public override void Down()
         {
+            DropForeignKey("dbo.Comments", "StoryId", "dbo.Stories");
             DropForeignKey("dbo.Stories", "CategoryId", "dbo.Categories");
             DropForeignKey("dbo.Stories", "AuthorId", "dbo.Authors");
             DropIndex("dbo.Stories", new[] { "AuthorId" });
             DropIndex("dbo.Stories", new[] { "CategoryId" });
+            DropIndex("dbo.Comments", new[] { "StoryId" });
             DropTable("dbo.Stories");
+            DropTable("dbo.Comments");
             DropTable("dbo.Categories");
             DropTable("dbo.Authors");
         }

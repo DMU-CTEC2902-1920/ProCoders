@@ -1,10 +1,10 @@
 namespace StoryBeeHiveWebsite.Migrations
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
-    using System.Collections.Generic;
     using StoryBeeHiveWebsite.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<StoryBeeHiveWebsite.Models.StoryContext>
@@ -12,7 +12,6 @@ namespace StoryBeeHiveWebsite.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "StoryBeeHiveWebsite.Models.StoryContext";
         }
 
         protected override void Seed(StoryBeeHiveWebsite.Models.StoryContext context)
@@ -21,6 +20,7 @@ namespace StoryBeeHiveWebsite.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
             var authors = new List<Author>
             {
                 new Author{AuthorId=1, FirstName="Jakeer", LastName="Gulati"},
@@ -28,7 +28,7 @@ namespace StoryBeeHiveWebsite.Migrations
                 new Author{AuthorId=3, FirstName="Qin", LastName="Juang"}
             };
 
-         
+
 
             authors.ForEach(author => context.Authors.AddOrUpdate(p => p.AuthorId, author));
             context.SaveChanges();

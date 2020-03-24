@@ -33,6 +33,9 @@ namespace StoryBeeHiveWebsite.Controllers
         // GET: Details/id
         public ActionResult Details(int? id)
         {
+            ViewBag.Message = "Click on 'Show Comments' and Scroll Down to see the Comments on the story";
+
+
             if (id == null) return new HttpNotFoundResult();
             Story selectedStory = db.Stories.First(p => p.StoryId == id);
 

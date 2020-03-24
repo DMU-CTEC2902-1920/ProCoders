@@ -102,13 +102,9 @@ D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveW
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\bin\System.Web.Optimization.xml
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\bin\Antlr3.Runtime.pdb
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csprojAssemblyReference.cache
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.InitialCreate.resources
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.AddCategoryName.resources
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.Name.resources
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.UpdatedStoryModel.resources
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations._1.resources
-D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.GenerateResource.cache
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.CoreCompileInputs.cache
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.CopyComplete
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.dll
 D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.pdb
+D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.Migrations.NewMigrationForMaster.resources
+D:\DMU 2nd Year\Advanced Programming\ProCoders\StoryBeeHiveWebsite\StoryBeeHiveWebsite\obj\Debug\StoryBeeHiveWebsite.csproj.GenerateResource.cache

@@ -184,25 +184,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202003230150039_InitialCreate.cs" />
-    <Compile Include="Migrations\202003230150039_InitialCreate.Designer.cs">
-      <DependentUpon>202003230150039_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003230221379_AddCategoryName.cs" />
-    <Compile Include="Migrations\202003230221379_AddCategoryName.Designer.cs">
-      <DependentUpon>202003230221379_AddCategoryName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003230239013_Name.cs" />
-    <Compile Include="Migrations\202003230239013_Name.Designer.cs">
-      <DependentUpon>202003230239013_Name.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003232049279_UpdatedStoryModel.cs" />
-    <Compile Include="Migrations\202003232049279_UpdatedStoryModel.Designer.cs">
-      <DependentUpon>202003232049279_UpdatedStoryModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003232053320_1.cs" />
-    <Compile Include="Migrations\202003232053320_1.Designer.cs">
-      <DependentUpon>202003232053320_1.cs</DependentUpon>
+    <Compile Include="Migrations\202003242307151_NewMigrationForMaster.cs" />
+    <Compile Include="Migrations\202003242307151_NewMigrationForMaster.Designer.cs">
+      <DependentUpon>202003242307151_NewMigrationForMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -218,6 +202,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\StoryContext-20200323014927.mdf" />
+    <Content Include="App_Data\StoryContext-20200323014927_log.ldf">
+      <DependentUpon>StoryContext-20200323014927.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -386,29 +374,14 @@
     <Content Include="Views\Home\FAQ.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <EmbeddedResource Include="Migrations\202003242307151_NewMigrationForMaster.resx">
+      <DependentUpon>202003242307151_NewMigrationForMaster.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202003230150039_InitialCreate.resx">
-      <DependentUpon>202003230150039_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003230221379_AddCategoryName.resx">
-      <DependentUpon>202003230221379_AddCategoryName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003230239013_Name.resx">
-      <DependentUpon>202003230239013_Name.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003232049279_UpdatedStoryModel.resx">
-      <DependentUpon>202003232049279_UpdatedStoryModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003232053320_1.resx">
-      <DependentUpon>202003232053320_1.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
