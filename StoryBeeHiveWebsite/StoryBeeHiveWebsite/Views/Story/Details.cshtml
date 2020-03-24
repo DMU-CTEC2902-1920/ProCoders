@@ -1,0 +1,39 @@
+﻿@model StoryBeeHiveWebsite.Models.Story
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2> @Html.ActionLink("Go Back to Story List", "Index", "Story")
+<br /><br />
+<p style="font-size:xx-large; font-style:inherit;" class="alert-success col-md-6">Story <span class="badge badge-primary"> # @Model.StoryId</p></span>
+<br />
+<h5><strong>Category:</strong> @Model.Category.Name</h5>
+<text style="font-size:x-large;"><strong>Title:</strong></text><text style="font-style:oblique; font-size:x-large;"> "@Model.Title"</text>
+<br /><br />
+<h4><strong>Description:</strong></h4>
+<p style="font-size:larger;">@Model.Description</p>
+
+<br />
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-text">
+            <a data-toggle="collapse" href="#comments">
+                Show Comments
+                <span class=""></span>
+            </a>
+        </h3>
+
+    </div>
+    <div id="comments" class="collapse">
+        <div class="card-body">
+            @foreach (var comment in Model.Comments)
+            {
+                <dt><bold>>Comment #@comment.CommentId</bold></dt>
+                <dt>Description: @comment.Description</dt>
+            }
+
+        </div>
+    </div>
+</div>
