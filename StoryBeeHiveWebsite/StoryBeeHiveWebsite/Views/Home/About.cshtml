@@ -1,7 +1,29 @@
 ﻿@{
-    ViewBag.Title = "About";
+    <br />
+    ViewBag.Title = "Welcome to About us page";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+
+<body>
+    <div>
+
+
+
+        <img src="~/images/Photo1.jpeg" alt="Sample Photo" style=width: 150px; height: 100px; />
+        <h2>@ViewBag.SubTitle</h2>
+        <p>@Model.Motto</p>
+
+        <h2>@ViewBag.SubTitle</h2>
+        <p><strong>Our vision</strong></p>
+        <p>@Model.Description</p>
+        <h2>@ViewBag.SubTitle</h2>
+
+        <p><strong>Story Writing Tips</strong></p>
+        <p>@Model.Tips</p>
+        </br>
+
+    </div>
+</body>
+
