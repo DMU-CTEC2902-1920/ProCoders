@@ -2,7 +2,9 @@
     <br />
     ViewBag.Title = "Welcome to About us page";
 }
-<h2>@ViewBag.Title.</h2>
+
+<p style="text-align:center;font-size:xx-large; font-style:inherit;" class="alert-success col-md-12"> @ViewBag.Title</p>
+
 <h3>@ViewBag.Message</h3>
 
 
@@ -11,19 +13,25 @@
 
 
 
-        <img src="~/images/Photo1.jpeg" alt="Sample Photo" style=width: 150px; height: 100px; />
-        <h2>@ViewBag.SubTitle</h2>
-        <p>@Model.Motto</p>
+        <img src="~/images/Photo1.jpeg" alt="Sample Photo" /> <br />
+        <h2>@ViewBag.SubTitle</h2><br />
+        <p style="font-style:italic; text-align:center"><strong>"@Model.Motto"</strong></p><br />
 
-        <h2>@ViewBag.SubTitle</h2>
-        <p><strong>Our vision</strong></p>
-        <p>@Model.Description</p>
-        <h2>@ViewBag.SubTitle</h2>
+        <div class="card" style="background-color:aquamarine">
+            <div class="card-body">
+                <p class="alert-info">
 
-        <p><strong>Story Writing Tips</strong></p>
-        <p>@Model.Tips</p>
-        </br>
+                    <h2>@ViewBag.SubTitle</h2>
+                <p style="font-size:x-large; text-align:center; color:darkslateblue"><strong>Our vision</strong></p>
+                <p>@Model.Description</p>
+                <h2>@ViewBag.SubTitle</h2>
 
+                <p style="font-size:x-large; text-align:center; color:darkslateblue"><strong>Story Writing Tips</strong></p>
+                <p>@Model.Tips</p>
+            </div>
+        </div>
+        <br /><br />
     </div>
+
 </body>
 
