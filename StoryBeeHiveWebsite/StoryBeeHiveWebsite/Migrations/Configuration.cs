@@ -12,6 +12,7 @@ namespace StoryBeeHiveWebsite.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "StoryBeeHiveWebsite.Models.StoryContext";
         }
 
         protected override void Seed(StoryBeeHiveWebsite.Models.StoryContext context)
