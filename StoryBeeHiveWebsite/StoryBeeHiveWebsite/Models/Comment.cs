@@ -10,6 +10,5 @@ namespace StoryBeeHiveWebsite.Models
         public virtual int CommentId { get; set; }
         public virtual string Description { get; set; }
         public virtual int StoryId { get; set; }
-        
     }
 }

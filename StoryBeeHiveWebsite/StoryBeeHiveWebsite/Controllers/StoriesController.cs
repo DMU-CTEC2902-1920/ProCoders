@@ -59,7 +59,7 @@ namespace StoryBeeHiveWebsite.Controllers
             }
 
             ViewBag.AuthorId = new SelectList(db.Authors, "AuthorId", "FirstName", story.AuthorId);
-            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", story.CategoryId);
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Name", story.CategoryId);
             return View(story);
         }
 
@@ -76,7 +76,7 @@ namespace StoryBeeHiveWebsite.Controllers
                 return HttpNotFound();
             }
             ViewBag.AuthorId = new SelectList(db.Authors, "AuthorId", "FirstName", story.AuthorId);
-            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", story.CategoryId);
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Name", story.CategoryId);
             return View(story);
         }
 
@@ -94,7 +94,7 @@ namespace StoryBeeHiveWebsite.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.AuthorId = new SelectList(db.Authors, "AuthorId", "FirstName", story.AuthorId);
-            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", story.CategoryId);
+            ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Name", story.CategoryId);
             return View(story);
         }
 
