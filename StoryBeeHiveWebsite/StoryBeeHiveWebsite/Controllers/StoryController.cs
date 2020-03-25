@@ -14,8 +14,10 @@ namespace StoryBeeHiveWebsite.Controllers
         // GET: Story
         public ActionResult Index()
         {
+            ViewBag.Popular = "Most Popular";
             var stories = db.Stories.Include(s => s.Author).Include(s => s.Category);
-            return View(stories.ToList());
+            
+            return View(stories.ToList( ));
         }
 
         public ActionResult Details(int? id)

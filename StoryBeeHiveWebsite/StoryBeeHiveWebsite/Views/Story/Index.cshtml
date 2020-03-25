@@ -9,10 +9,25 @@
     <br />
     <h2>Stories List</h2>
     <br /><br />
-    <ol>
-        @foreach (var item in Model)
-        {
-            <li><h4><a href="~/Story/Details/@item.StoryId">@Html.DisplayFor(modelItem => item.Title)</a></h4></li>
-        }
-    </ol>
+          <ol>
+              @foreach (var item in Model)
+              {
+                  <li>
+                      <h4>
+                          <a href="~/Story/Details/@item.StoryId">@Html.DisplayFor(modelItem => item.Title)</a>
+
+                      </h4>
+
+                  </li>
+
+                  if (item.Comments.Count > 3)
+                  {
+                      @ViewBag.Popular
+                  }
+              }
+          </ol>
+   
+
+
+
 </body>
