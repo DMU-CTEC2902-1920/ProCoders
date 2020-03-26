@@ -12,7 +12,7 @@ namespace StoryBeeHiveWebsite.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(StoryBeeHiveWebsite.Models.StoryContext context)
@@ -23,9 +23,9 @@ namespace StoryBeeHiveWebsite.Migrations
             //  to avoid creating duplicate seed data.
             var authors = new List<Author>
             {
-                new Author{AuthorId=1, FirstName="Jakeer", LastName="Gulati"},
-                new Author{AuthorId=2, FirstName="Hugo", LastName="Austin"},
-                new Author{AuthorId=3, FirstName="Qin", LastName="Juang"}
+                new Author{AuthorId=1, FirstName="Jakeer", LastName="Gulati", About="I am a active guy. I like to write stories on my free time. My job is to teach as a English Techer in DMU.", Hobbies="Reading books, Playing Sports."},
+                new Author{AuthorId=2, FirstName="Hugo", LastName="Austin", About="Trusting people has been an issue for me. It is not always easy for me to make friends but if I do trust someone I am really attached with them", Hobbies="Hunting, Hiking, Playing games"},
+                new Author{AuthorId=3, FirstName="Qin", LastName="Juang", About="My main interest is to design architecture. My target is to build an architect to be favoured by all", Hobbies="Fishing, Playing soccer, Boxing"}
             };
 
 
