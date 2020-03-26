@@ -1,0 +1,23 @@
+﻿@model StoryBeeHiveWebsite.Models.Author
+
+@{
+    ViewBag.Title = "Details";
+}
+<br /><br />
+<p style="font-size:xx-large; font-style:inherit;" class="alert-success col-md-6">Author <span class="badge badge-primary"> # @Model.AuthorId</p></span>
+
+<br />
+<h5><strong>First Name:</strong> @Model.FirstName</h5>
+<h5><strong>Last Name:</strong> @Model.LastName</h5>
+<br />
+<strong>About Me:</strong>
+<div class="jumbotron">
+     
+    <p style="font-size:larger;">@Model.About</p>
+</div>
+
+<br />
+<div class="card-body">
+
+    <p style="font-size:larger;"><strong>Hobbies:</strong>&nbsp;@Model.Hobbies</p>
+</div>
