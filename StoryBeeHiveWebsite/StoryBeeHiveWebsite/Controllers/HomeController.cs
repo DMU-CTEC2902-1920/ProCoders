@@ -25,7 +25,7 @@ namespace StoryBeeHiveWebsite.Controllers
 
            
 
-            return View(ViewBag);
+            return View();
 
         }
 
