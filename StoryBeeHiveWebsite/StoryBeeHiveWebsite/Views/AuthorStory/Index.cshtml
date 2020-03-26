@@ -5,23 +5,23 @@
 }
 
 <body>
-
+    <br />
     <br />
     <h2><strong>Authors Profile List</strong></h2>
     <h3>Click on an Author to see their Profile</h3>
-    <br /><br />
+    <br />
     <ol>
         @foreach (var item in Model)
         {
             <li>
                 <h4>
-                    <a href="~/AuthorStory/Details/@item.AuthorId">@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem=>item.LastName)</a>
+                    <a href="~/AuthorStory/Details/@item.AuthorId">@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)</a>
 
                 </h4>
 
             </li>
 
-         
+
         }
     </ol>
 
