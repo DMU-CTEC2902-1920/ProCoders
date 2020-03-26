@@ -10,20 +10,22 @@
     <h2><strong>Authors Profile List</strong></h2>
     <h3>Click on an Author to see their Profile</h3>
     <br />
+  <div style="background-color:antiquewhite">
     <ol>
         @foreach (var item in Model)
         {
             <li>
-                <h4>
+                <h3>
                     <a href="~/AuthorStory/Details/@item.AuthorId">@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)</a>
 
-                </h4>
+                </h3>
 
             </li>
 
 
         }
     </ol>
+  </div>
 
 
 
