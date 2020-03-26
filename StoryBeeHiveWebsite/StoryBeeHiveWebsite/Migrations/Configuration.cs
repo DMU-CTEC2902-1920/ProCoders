@@ -84,9 +84,9 @@ namespace StoryBeeHiveWebsite.Migrations
                 new Comment{CommentId=9, Description="Story is not meaning to read it, it also means to feel the story", StoryId=4},
                 new Comment{CommentId=10, Description="People make more happy after read story", StoryId=4},
                 new Comment{CommentId=11, Description="You feels better makes happy when read any Awsome story", StoryId=4},
-
                 new Comment{CommentId=12, Description="This story really nice", StoryId=5},
                 new Comment{CommentId=13, Description="Life is relaxing while reading this story", StoryId=5},
+
                 new Comment{CommentId=14, Description="Story makes anyone happy, but this story makes me more happy", StoryId=6},
                 new Comment{CommentId=15, Description="Life is relaxing while reading this story", StoryId=6},
                 new Comment{CommentId=16, Description="StoryHive always post the wonderful stories", StoryId=7},
